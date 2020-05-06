@@ -1,5 +1,5 @@
 {
-  "name": "ffmpegjs-custom",
+  "name": "@ffmpeg/ffmpeg",
   "version": "0.8.3",
   "description": "FFmpeg WebAssembly version",
   "main": "src/index.js",
@@ -35,6 +35,9 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ffmpegwasm/ffmpeg.wasm/issues"
+  },
+  "engines": {
+    "node": ">=12.16.1"
   },
   "homepage": "https://github.com/ffmpegwasm/ffmpeg.wasm#readme",
   "dependencies": {
